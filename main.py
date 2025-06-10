@@ -23,7 +23,7 @@ from datetime import datetime
 def create_project_structure() -> str:
     """ Создание и управление директориями """
     project_root = "project_root"
-    """ Проверка существования структуры директорий """
+
     if os.path.exists(project_root):
         print("Структура директорий уже создана")
         return
