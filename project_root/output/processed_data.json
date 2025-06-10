@@ -1,0 +1,16 @@
+[
+    {
+        "filename": "text_utf8_processed.txt",
+        "original_text": "Hello World! This is a test file. Привет, мир! Это тестовый файл. Hallo Welt! Dies ist eine Testdatei. Bonjour le monde! Ceci est un fichier test.",
+        "processed_text": "hELLO wORLD! tHIS IS A TEST FILE. пРИВЕТ, МИР! эТО ТЕСТОВЫЙ ФАЙЛ. hALLO wELT! dIES IST EINE tESTDATEI. bONJOUR LE MONDE! cECI EST UN FICHIER TEST.",
+        "file_size_bytes": 170,
+        "last_modified": "2025-06-10T20:32:54.651580"
+    },
+    {
+        "filename": "text_windows1251_processed.txt",
+        "original_text": "Hello World! This is a test file. Привет, мир! Это тестовый файл. Hallo Welt! Dies ist eine Testdatei. Bonjour le monde! Ceci est un fichier test.",
+        "processed_text": "hELLO wORLD! tHIS IS A TEST FILE. пРИВЕТ, МИР! эТО ТЕСТОВЫЙ ФАЙЛ. hALLO wELT! dIES IST EINE tESTDATEI. bONJOUR LE MONDE! cECI EST UN FICHIER TEST.",
+        "file_size_bytes": 170,
+        "last_modified": "2025-06-10T20:32:54.666581"
+    }
+]

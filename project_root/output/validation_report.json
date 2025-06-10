@@ -1,0 +1,39 @@
+{
+    "valid": true,
+    "errors": [],
+    "checked_files": 2,
+    "schema_used": {
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "filename": {
+                    "type": "string"
+                },
+                "full_path": {
+                    "type": "string"
+                },
+                "size": {
+                    "type": "integer",
+                    "minimum": 0
+                },
+                "created": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "modified": {
+                    "type": "string",
+                    "format": "date-time"
+                }
+            },
+            "required": [
+                "filename",
+                "full_path",
+                "size",
+                "created",
+                "modified"
+            ],
+            "additionalProperties": false
+        }
+    }
+}
